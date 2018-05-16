@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/explore_duration_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/explore_duration_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_marginStart="@dimen/layout_margin"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:minWidth="@dimen/min_width"
+            android:text="@string/default_duration_time"
+            android:textAlignment="center"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/duration_time" />
+
+        <TextView
+            android:id="@+id/explore_duration_dimension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_marginStart="@dimen/layout_margin"
+            android:text="@string/default_duration_dimension"
+            android:textAlignment="center"
+            android:textColor="@color/primaryTextColor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/explore_route_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:layout_toEndOf="@+id/explore_duration_layout"
+        android:text="@string/default_name_of_the_route"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="@dimen/route_name" />
+
+    <LinearLayout
+        android:id="@+id/explore_transport_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/explore_route_name"
+        android:layout_marginEnd="@dimen/layout_margin"
+        android:layout_marginStart="@dimen/layout_margin"
+        android:layout_marginTop="@dimen/layout_half_margin"
+        android:layout_toEndOf="@+id/explore_duration_layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/explore_transport_type_walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_half_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_directions_walk_black_24dp"
+            android:contentDescription="@string/type_walk_description"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/explore_transport_type_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_half_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_directions_run_black_24dp"
+            android:contentDescription="@string/type_run_description"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/explore_transport_type_bike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_half_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_directions_bike_black_24dp"
+            android:contentDescription="@string/type_bike_description"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/explore_transport_type_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_half_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_directions_car_black_24dp"
+            android:contentDescription="@string/type_car_description"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/explore_transport_type_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_half_margin"
+            android:layout_weight="1"
+            android:src="@drawable/ic_directions_bus_black_24dp"
+            android:contentDescription="@string/type_bus_description"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/explore_transport_type_train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_directions_railway_black_24dp"
+            android:contentDescription="@string/type_train_description"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tour Guide – Voronezh region</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_duration_time">90</string>
+    <string name="default_duration_dimension">min</string>
+    <string name="default_name_of_the_route">Name of the route</string>
+    <string name="type_walk_description">Walk type of activity</string>
+    <string name="type_run_description">Run type of activity</string>
+    <string name="type_bike_description">Bike type of activity</string>
+    <string name="type_car_description">Car type of activity</string>
+    <string name="type_bus_description">Bus type of activity</string>
+    <string name="type_train_description">Train type of activity</string>
+    <string name="default_food_place_name">PizzaHot</string>
+    <string name="food_type_description">Food place type</string>
+    <string name="default_food_place_distance">5.7 km</string>
+    <string name="default_note_title">Rome notes</string>
+    <string name="default_note_summary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s</string>
+    <string name="default_note_date">04/23/2018</string>
+    <string name="sight_photo_description">Photo of sight</string>
+    <string name="default_sight_name">Museum of Arts</string>
+    <string name="add_note_message">New note will be added in future</string>
+</resources>
